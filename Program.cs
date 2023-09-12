@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         { 
-            int no1 = 3; //Skapar en variabel med siffran 3
+            int no1 = 12; //Skapar en variabel med siffran 3
             if (no1 >= 10)
             {
                 Console.WriteLine("Talet är stort!");
@@ -21,14 +21,11 @@
 
             int no2 = 0;
             do
-             
-
             {
-                no2++;
                 Console.WriteLine(no2);
-
-            } while (no2 < no1);
-
+                no2++;
+            } while (no2 <= no1);
+            //Är no1 lika med 0 eller högre kommer loop köras tills det kommer upp till talet i no1.
 
 
         }
