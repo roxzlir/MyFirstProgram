@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         { 
-            int no1 = 12; //Skapar en variabel med siffran 12
+            int no1 = 12;  //Creating a int variabel with value 12
             if (no1 >= 10)
             {
                 Console.WriteLine("Talet är stort!");
@@ -13,20 +13,19 @@
             {
                 Console.WriteLine("Oj. Lågt tal!");
             }
-            //Ovan är if och else satsen för vilken text som ska skrivas beroende på vilket värde variabel har
+            //Above here is the if and else code, this tells which text line that will be written from the value of int variabel
             
             Console.WriteLine("Vad heter du?");
             string name = Console.ReadLine();
             Console.WriteLine($"Hej, {name}");
-            //Skriver först ut frågam och skapar en string med texten som användaren skriver in som sitt namn.
+            //Creating a string with the input text and then print the value from that string in writeline.
 
-            int no2 = 0;
-            do
+            while (no1 >= 0)
             {
-                Console.WriteLine(no2);
-                no2++;
-            } while (no2 <= no1);
-            //Är no1 lika med 0 eller högre kommer loop köras tills det kommer upp till talet i no1.
+                Console.WriteLine(no1);
+                no1--;
+            }
+            //If no1 value is higher than 0 it will loop and subtract 1 from the number until it reaches 0
 
 
         }
