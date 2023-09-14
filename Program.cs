@@ -20,12 +20,14 @@
             Console.WriteLine($"Hej, {name}");
             //Creating a string with the input text and then print the value from that string in writeline.
 
-            while (no1 >= 0)
+            int no2 = 0;
+            do
             {
-                Console.WriteLine(no1);
-                no1--;
+                Console.WriteLine(no2);
+                no2++;
             }
-            //If no1 value is higher than 0 it will loop and subtract 1 from the number until it reaches 0
+            while (no2 <= no1);
+            //The loop will run if no1 is higher than 0 (the value of no2) and add +1 until it reaches the number in no1
 
 
         }
