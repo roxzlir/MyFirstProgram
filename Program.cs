@@ -27,7 +27,7 @@
                 no2++;
             }
             while (no2 <= no1);
-            //The loop will run if no1 is higher than 0 (the value of no2) and add +1 until it reaches the number in no1
+          //The loop will run if no1 is higher than 0 (the value of no2) and add +1 until it reaches the number in no1
 
 
         }
